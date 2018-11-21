@@ -1,0 +1,8 @@
+On entering a supermarket with a shopping list, a lot of people are lost on where to start and how to get to
+the next product on the list. To address this problem we developed an inhouse navigation for a supermarket based on a Graph Database.
+The system needs to be prepared with given landmarks and the location of products in relation to these landmarks. The shortest path from one product or location to the next product on your shopping list is then easily
+calculated using shortest path graph algorithms. If you want to get guidance for more than one product or the product you are looking for is at the other end of the supermarket, the advantage of graph based
+databases in comparison with classical data base models becomes more prominent. In relational DBs the runtime will increase dramatically with each neighboring location visited on the path from one product to the
+next. Further applications for this idea are all guidance systems that cannot use GPS or WiFi. The supermarket
+use case could be extended to allow the market admin to include featured products on the guided path. Combining this idea with machine learning could lead to even more advanced guidance results, preferring
+paths of people with similar items on the shopping list. 
